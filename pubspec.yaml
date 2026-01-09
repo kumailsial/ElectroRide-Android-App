@@ -1,0 +1,55 @@
+name: electroride
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+# ================= DEPENDENCIES =================
+dependencies:
+  flutter:
+    sdk: flutter
+
+  supabase_flutter: ^2.10.3
+  flutter_local_notifications: ^17.1.2   # 🔔 REQUIRED
+  cupertino_icons: ^1.0.8
+  flutter_spinkit: ^5.2.2
+  shared_preferences: ^2.5.2
+  intl: ^0.19.0
+  image_picker: ^1.1.2  # To select images from gallery/camera
+  http: ^1.2.2
+
+# ================= DEV DEPENDENCIES =================
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+  # TOOLS
+  flutter_native_splash: ^2.2.16
+  flutter_launcher_icons: ^0.14.4
+
+# ================= FLUTTER =================
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+# ================= SPLASH SCREEN =================
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets/images/splash_logo.png
+  android: true
+  ios: true
+  web: false
+  fullscreen: true
+
+# ================= APP ICON =================
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/images/logo.png
