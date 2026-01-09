@@ -1,16 +1,24 @@
-# electroride
+# ElectroRide 🚍⚡
 
-A new Flutter project.
+ElectroRide is a mobile ticket booking application developed for the CM Punjab Bus Scheme.
+The app allows users to easily book tickets, manage rides, and access transportation services digitally.
 
-## Getting Started
+## Features
+- User registration & login
+- Ticket booking system
+- Ride history
+- Clean and user-friendly UI
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter / Dart
+- Android Studio
+- Supabase 
+- REST APIs
 
-A few resources to get you started if this is your first Flutter project:
+## Project Purpose
+This project was developed as a semester project to address real-world public transport challenges using mobile application development.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Future Enhancements
+- Online payment integration
+- Admin dashboard
+- Real-time bus tracking
