@@ -22,3 +22,15 @@ This project was developed as a semester project to address real-world public tr
 - Online payment integration
 - Admin dashboard
 - Real-time bus tracking
+
+- ## Screenshots
+
+### Login Screen
+![Login](screenshots/Login.png.jpeg)
+
+### Home Screen
+![Home](screenshots/Home.png.jpeg)
+
+### Booking Screen
+![Booking](screenshots/booking page.png.jpeg)
+
